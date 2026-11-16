@@ -1,0 +1,21 @@
+{
+  "_doc": "Each gate names a skill that must be loaded in this session before a matching tool call runs. path_re matches Write/Edit/MultiEdit file paths (forward slashes); bash_re matches Bash commands; chart=true matches an Artifact publish whose file draws a chart. Optional for bash gates: cwd_re limits it to commands run in a matching folder; diff_re + diff_range limit it to when git diff --name-only <diff_range> lists a matching file. Add your own gates.",
+  "gates": [
+    {
+      "skill": "dataviz",
+      "chart": true,
+      "why": "load dataviz before any chart"
+    },
+    {
+      "skill": "pdf-ops",
+      "path_re": "\\.pdf$",
+      "bash_re": "(import fitz|import pymupdf|from pypdf|import pypdf|PyPDF2)",
+      "why": "PDF work uses the tested pdf-ops recipes"
+    },
+    {
+      "skill": "humanizer",
+      "path_re": "(cover[-_ ]?letter|/posts?/|linkedin)",
+      "why": "writing you publish goes through humanizer"
+    }
+  ]
+}

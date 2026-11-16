@@ -57,6 +57,7 @@ Most of these are other people's open-source work. Check the source before you r
 | content-repurposer | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | content-research | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | copywriting | not recorded |  |
+| council-this | Khalid (own skill, made generic) |  |
 | cover-thumbnail-brief | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | creator-outreach | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | cross-platform-distribution | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
@@ -105,10 +106,13 @@ Most of these are other people's open-source work. Check the source before you r
 | neon-postgres | https://github.com/neondatabase/agent-skills |  |
 | neon-postgres-branches | https://github.com/neondatabase/agent-skills |  |
 | never-get-hacked | https://github.com/ItsRealAJ/Never-Get-Hacked-Skill |  |
+| notion-sync | Khalid (own skill, made generic) |  |
 | on-screen-text-writer | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | owasp-security | not recorded |  |
 | paid-social-brief | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
+| pdf-ops | Khalid (own skill, made generic) |  |
 | positioning-audit | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
+| pre-launch-check | Khalid (own skill, made generic) |  |
 | pricing-strategy | not recorded |  |
 | product-discovery | not recorded |  |
 | profile-conversion-audit | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
@@ -118,6 +122,7 @@ Most of these are other people's open-source work. Check the source before you r
 | reel-extract | Khalid (own skill, made generic) |  |
 | reel-scripter | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | remove-animations | https://github.com/emilkowalski/skills | yes |
+| review | Khalid (own skill, made generic) |  |
 | review-animations | https://github.com/emilkowalski/skills | yes |
 | saas-metrics-coach | not recorded |  |
 | schema-markup | not recorded |  |

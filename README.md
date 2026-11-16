@@ -1,6 +1,6 @@
 # Claude kit
 
-Khalid's Claude Code setup, with everything personal taken out: 137 skills, 63 agents, the plugins and MCP servers he uses, and a template for your own `CLAUDE.md`.
+Khalid's Claude Code setup, with everything personal taken out: 142 skills, 63 agents, the plugins and MCP servers he uses, a writing-style rules file, a skill-gate hook, and a template for your own `CLAUDE.md`.
 
 ## Install
 
@@ -34,6 +34,8 @@ To update later: `git pull` in `claude-kit`, then copy again.
 | --- | --- |
 | `skills/` | One folder per skill. `SOURCES.md` says where each came from. |
 | `agents/` | Subagent definitions by team (engineering, design, marketing, product, testing and more). `agents/extra/` holds nine more. |
+| `rules/writing-style.md` | Rules that stop Claude's writing sounding like AI. Copy to `~/.claude/rules/` or paste into your `CLAUDE.md`. |
+| `hooks/` | The skill gate: makes Claude load the right skill before certain jobs. See below. |
 | `CLAUDE-template.md` | How Khalid structures his `CLAUDE.md`, with the personal parts blanked. Copy it to `~/.claude/CLAUDE.md` and fill it in. |
 
 Some skills are worth starting with:
@@ -46,7 +48,31 @@ Some skills are worth starting with:
 | `frontend-design`, `hallmark`, `taste-skill` | Web pages that look designed |
 | `webapp-testing` | Testing a local web app with Playwright |
 | `deep-research` | Researching a question across many sources |
+| `council-this` | Five agents argue a big decision, then one report with a recommendation |
+| `pdf-ops` | Merge, split, redact, compress, fill and build PDFs without a PDF editor |
+| `review` | Checks work against the project's own rules and says honestly what was tested |
+| `pre-launch-check` | Ten legal and money checks before a product goes public |
+| `reel-extract`, `learn-from-video` | Turn an Instagram reel or a tutorial video into a Claude skill |
 | `caveman` | Much shorter answers, when you ask for them |
+
+## The skill gate (optional)
+
+`hooks/skill-gate.py` blocks a tool call until Claude has loaded the matching skill, for example `pdf-ops` before touching a PDF or `dataviz` before drawing a chart. The gates are in `hooks/skill-gates.json`; add your own. It fails open, so a broken gate never stops work, and `SKILL_GATE_OFF=1` turns it off.
+
+To turn it on, copy `hooks/` to `~/.claude/hooks/`, then add this to `~/.claude/settings.json` (change `python3` to `python` on Windows):
+
+```json
+{
+  "hooks": {
+    "PreToolUse": [
+      { "matcher": "Write|Edit|MultiEdit|Bash|Artifact",
+        "hooks": [{ "type": "command", "command": "python3 ~/.claude/hooks/skill-gate.py" }] }
+    ]
+  }
+}
+```
+
+Check it works: `python3 ~/.claude/hooks/test_skill_gate.py`.
 
 ## Plugins
 
