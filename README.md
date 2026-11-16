@@ -1,6 +1,6 @@
 # Claude kit
 
-Khalid's Claude Code setup, with everything personal taken out: 142 skills, 63 agents, the plugins and MCP servers he uses, a writing-style rules file, a skill-gate hook, and a template for your own `CLAUDE.md`.
+Khalid's Claude Code setup, with everything personal taken out: 143 skills, 63 agents, the plugins and MCP servers he uses, a writing-style rules file, a skill-gate hook, and a template for your own `CLAUDE.md`.
 
 ## Install
 
@@ -51,6 +51,7 @@ Some skills are worth starting with:
 | `council-this` | Five agents argue a big decision, then one report with a recommendation |
 | `pdf-ops` | Merge, split, redact, compress, fill and build PDFs without a PDF editor |
 | `review` | Checks work against the project's own rules and says honestly what was tested |
+| `evidence-bank` | Every claim on a CV or application cites a source you banked; copy its `TEMPLATE.md` to `~/.claude/evidence-bank.md` first |
 | `pre-launch-check` | Ten legal and money checks before a product goes public |
 | `reel-extract`, `learn-from-video` | Turn an Instagram reel or a tutorial video into a Claude skill |
 | `caveman` | Much shorter answers, when you ask for them |

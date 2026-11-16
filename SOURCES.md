@@ -67,6 +67,7 @@ Most of these are other people's open-source work. Check the source before you r
 | dm-script-writer | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | emil-design-eng | https://github.com/emilkowalski/skills | yes |
 | eu-ai-act-specialist | not recorded |  |
+| evidence-bank | Khalid (own skill, made generic) |  |
 | find-animation-opportunities | https://github.com/emilkowalski/skills | yes |
 | founder-board | https://github.com/Jakeschincariol/founder-skill | yes |
 | founder-cfo | https://github.com/Jakeschincariol/founder-skill | yes |
