@@ -99,6 +99,7 @@ Most of these are other people's open-source work. Check the source before you r
 | ios-simulator-skill | https://github.com/conorluddy/ios-simulator-skill | yes |
 | iso42001-specialist | not recorded |  |
 | launch-retrospective | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
+| learn-from-video | Khalid (own skill, made generic) |  |
 | linkedin-thought-leadership | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | mobile-native | https://github.com/emilkowalski/skills | yes |
 | neon-postgres | https://github.com/neondatabase/agent-skills |  |
@@ -114,6 +115,7 @@ Most of these are other people's open-source work. Check the source before you r
 | react-best-practices | https://github.com/shuding/better-all |  |
 | reel-analyzer | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | reel-builder | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
+| reel-extract | Khalid (own skill, made generic) |  |
 | reel-scripter | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | remove-animations | https://github.com/emilkowalski/skills | yes |
 | review-animations | https://github.com/emilkowalski/skills | yes |

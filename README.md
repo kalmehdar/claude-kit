@@ -1,6 +1,6 @@
 # Claude kit
 
-Khalid's Claude Code setup, with everything personal taken out: 135 skills, 63 agents, the plugins and MCP servers he uses, and a template for your own `CLAUDE.md`.
+Khalid's Claude Code setup, with everything personal taken out: 137 skills, 63 agents, the plugins and MCP servers he uses, and a template for your own `CLAUDE.md`.
 
 ## Install
 
