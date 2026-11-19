@@ -1,6 +1,6 @@
 # Claude kit
 
-Khalid's Claude Code setup, with everything personal taken out: 143 skills, 63 agents, the plugins and MCP servers he uses, a writing-style rules file, a skill-gate hook, and a template for your own `CLAUDE.md`.
+Khalid's Claude Code setup, with everything personal taken out: 159 skills, 70 agents, a 3D printing toolkit, the plugins and MCP servers he uses, a writing-style rules file, a skill-gate hook, and a template for your own `CLAUDE.md`.
 
 ## Install
 
@@ -33,7 +33,8 @@ To update later: `git pull` in `claude-kit`, then copy again.
 | Folder | What it is |
 | --- | --- |
 | `skills/` | One folder per skill. `SOURCES.md` says where each came from. |
-| `agents/` | Subagent definitions by team (engineering, design, marketing, product, testing and more). `agents/extra/` holds nine more. |
+| `agents/` | Subagent definitions by team (engineering, design, marketing, product, testing, 3D and more). `agents/extra/` holds nine more. |
+| `3d-printing/` | Design prints with Claude in OpenSCAD, export one STL per colour, check the meshes, and preview everything on a Print Bench page. Start with its README. |
 | `rules/writing-style.md` | Rules that stop Claude's writing sounding like AI. Copy to `~/.claude/rules/` or paste into your `CLAUDE.md`. |
 | `hooks/` | The skill gate: makes Claude load the right skill before certain jobs. See below. |
 | `CLAUDE-template.md` | How Khalid structures his `CLAUDE.md`, with the personal parts blanked. Copy it to `~/.claude/CLAUDE.md` and fill it in. |
@@ -55,6 +56,8 @@ Some skills are worth starting with:
 | `pre-launch-check` | Ten legal and money checks before a product goes public |
 | `reel-extract`, `learn-from-video` | Turn an Instagram reel or a tutorial video into a Claude skill |
 | `caveman` | Much shorter answers, when you ask for them |
+| `3d-print-designer` | Designs printable parts in OpenSCAD with FDM rules, then checks them; see `3d-printing/` |
+| `cli-anything-drawio`, `cli-anything-libreoffice` | Diagrams and office documents from the command line (each needs its CLI-Anything harness installed) |
 
 ## The skill gate (optional)
 

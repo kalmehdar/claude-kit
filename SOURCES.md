@@ -4,18 +4,23 @@ Most of these are other people's open-source work. Check the source before you r
 
 | Skill | Source | Licence file in folder |
 | --- | --- | --- |
+| 3d-print-designer | https://github.com/wilsonwaters/3d-printing, commit f5e18a1 (MIT) | yes |
 | ab-hook-tester | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | aeo | https://github.com/alirezarezvani/aeo-box |  |
 | analytics-readout | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | animate | https://github.com/emilkowalski/skills | yes |
+| animation | https://github.com/majiayu000/claude-skill-registry (MIT) | yes |
 | animation-performance | https://github.com/emilkowalski/skills | yes |
 | app-store-screenshots | https://github.com/ceorkm/aso-shots | yes |
 | apple-design | https://github.com/emilkowalski/skills | yes |
+| asset-optimization | https://github.com/majiayu000/claude-skill-registry (MIT) | yes |
 | audience-personas | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | audit-website | not recorded |  |
 | b-roll-shot-list | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | best-time-scheduler | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | bio-profile-optimizer | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
+| blender | https://github.com/majiayu000/claude-skill-registry (MIT) | yes |
+| blender-3d-modeling | https://github.com/majiayu000/claude-skill-registry (MIT) | yes |
 | brainstorming | not recorded |  |
 | break-ui | https://github.com/emilkowalski/skills | yes |
 | browser-use | https://github.com/browser-use/browser-use |  |
@@ -44,6 +49,11 @@ Most of these are other people's open-source work. Check the source before you r
 | clerk-testing | not recorded |  |
 | clerk-vue-patterns | not recorded |  |
 | clerk-webhooks | not recorded |  |
+| cli-anything-adguardhome | https://github.com/HKUDS/CLI-Anything, commit 34f5195 (Apache-2.0) | yes |
+| cli-anything-drawio | https://github.com/HKUDS/CLI-Anything, commit 34f5195 (Apache-2.0) | yes |
+| cli-anything-libreoffice | https://github.com/HKUDS/CLI-Anything, commit 34f5195 (Apache-2.0) | yes |
+| cli-anything-obsidian | https://github.com/HKUDS/CLI-Anything, commit 34f5195 (Apache-2.0) | yes |
+| cli-anything-zotero | https://github.com/HKUDS/CLI-Anything, commit 34f5195 (Apache-2.0) | yes |
 | collab-outreach | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | comment-mining | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | community-engagement-plan | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
@@ -104,10 +114,12 @@ Most of these are other people's open-source work. Check the source before you r
 | learn-from-video | Khalid (own skill, made generic) |  |
 | linkedin-thought-leadership | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | mobile-native | https://github.com/emilkowalski/skills | yes |
+| modeling | https://github.com/majiayu000/claude-skill-registry (MIT) | yes |
 | neon-postgres | https://github.com/neondatabase/agent-skills |  |
 | neon-postgres-branches | https://github.com/neondatabase/agent-skills |  |
 | never-get-hacked | https://github.com/ItsRealAJ/Never-Get-Hacked-Skill |  |
 | notion-sync | Khalid (own skill, made generic) |  |
+| omniverse | https://github.com/majiayu000/claude-skill-registry (MIT) | yes |
 | on-screen-text-writer | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | owasp-security | not recorded |  |
 | paid-social-brief | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
@@ -125,6 +137,7 @@ Most of these are other people's open-source work. Check the source before you r
 | remove-animations | https://github.com/emilkowalski/skills | yes |
 | review | Khalid (own skill, made generic) |  |
 | review-animations | https://github.com/emilkowalski/skills | yes |
+| rigging | https://github.com/majiayu000/claude-skill-registry (MIT) | yes |
 | saas-metrics-coach | not recorded |  |
 | schema-markup | not recorded |  |
 | security-audit | https://github.com/cloudflare/security-audit-skill | yes |
@@ -137,13 +150,20 @@ Most of these are other people's open-source work. Check the source before you r
 | story-sequencer | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | stripe-best-practices | https://github.com/stripe/ai |  |
 | taste-skill | https://github.com/Leonxlnx/taste-skill |  |
+| texturing | https://github.com/majiayu000/claude-skill-registry (MIT) | yes |
 | trend-spotter | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | ugc-creator-brief | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
+| unity | https://github.com/majiayu000/claude-skill-registry (MIT) | yes |
 | utm-campaign-plan | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | viral-carousel | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | viral-hook-writer | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
 | virality | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
+| vroid | https://github.com/majiayu000/claude-skill-registry (MIT) | yes |
 | watch | https://github.com/bradautomates/claude-video |  |
 | web-asset-generator | https://github.com/alonw0/web-asset-generator | yes |
 | webapp-testing | not recorded | yes |
 | x-thread-strategy | https://github.com/Ootto-AI/claude-content-skills (MIT) |  |
+
+The 3D agents in `agents/3d/` come from https://github.com/majiayu000/claude-skill-registry (MIT); its licence is in that folder.
+
+The tools and example models in `3d-printing/` were written with Claude for this kit.
