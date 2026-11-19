@@ -166,4 +166,4 @@ Most of these are other people's open-source work. Check the source before you r
 
 The 3D agents in `agents/3d/` come from https://github.com/majiayu000/claude-skill-registry (MIT); its licence is in that folder.
 
-The tools and example models in `3d-printing/` were written with Claude for this kit.
+The 3D printing tools and example models moved to https://github.com/kalmehdar/claude-3d-printing.
