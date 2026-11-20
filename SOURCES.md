@@ -47,7 +47,7 @@ Checked on 20 November 2026 against each source repository on GitHub.
 | content-repurposer | https://github.com/Ootto-AI/claude-content-skills | MIT |
 | content-research | https://github.com/Ootto-AI/claude-content-skills | MIT |
 | copywriting | https://github.com/coreyhaines31/marketingskills | MIT |
-| council-this | Khalid (own skill, made generic) | Khalid's own |
+| council-this | Khalid (own skill, made generic) | MIT |
 | cover-thumbnail-brief | https://github.com/Ootto-AI/claude-content-skills | MIT |
 | creator-outreach | https://github.com/Ootto-AI/claude-content-skills | MIT |
 | cross-platform-distribution | https://github.com/Ootto-AI/claude-content-skills | MIT |
@@ -56,7 +56,7 @@ Checked on 20 November 2026 against each source repository on GitHub.
 | dm-script-writer | https://github.com/Ootto-AI/claude-content-skills | MIT |
 | emil-design-eng | https://github.com/emilkowalski/skills | MIT |
 | eu-ai-act-specialist | https://github.com/alirezarezvani/claude-skills | MIT |
-| evidence-bank | Khalid (own skill, made generic) | Khalid's own |
+| evidence-bank | Khalid (own skill, made generic) | MIT |
 | find-animation-opportunities | https://github.com/emilkowalski/skills | MIT |
 | founder-board | https://github.com/Jakeschincariol/founder-skill | MIT |
 | founder-cfo | https://github.com/Jakeschincariol/founder-skill | MIT |
@@ -90,30 +90,30 @@ Checked on 20 November 2026 against each source repository on GitHub.
 | ios-simulator-skill | https://github.com/conorluddy/ios-simulator-skill | MIT |
 | iso42001-specialist | https://github.com/alirezarezvani/claude-skills | MIT |
 | launch-retrospective | https://github.com/Ootto-AI/claude-content-skills | MIT |
-| learn-from-video | Khalid (own skill, made generic) | Khalid's own |
+| learn-from-video | Khalid (own skill, made generic) | MIT |
 | linkedin-thought-leadership | https://github.com/Ootto-AI/claude-content-skills | MIT |
 | mobile-native | https://github.com/emilkowalski/skills | MIT |
 | modeling | https://github.com/majiayu000/claude-skill-registry | MIT |
 | neon-postgres | https://github.com/neondatabase/agent-skills | Apache-2.0 |
 | neon-postgres-branches | https://github.com/neondatabase/agent-skills | Apache-2.0 |
 | never-get-hacked | https://github.com/ItsRealAJ/Never-Get-Hacked-Skill | MIT |
-| notion-sync | Khalid (own skill, made generic) | Khalid's own |
+| notion-sync | Khalid (own skill, made generic) | MIT |
 | omniverse | https://github.com/majiayu000/claude-skill-registry | MIT |
 | on-screen-text-writer | https://github.com/Ootto-AI/claude-content-skills | MIT |
 | paid-social-brief | https://github.com/Ootto-AI/claude-content-skills | MIT |
-| pdf-ops | Khalid (own skill, made generic) | Khalid's own |
+| pdf-ops | Khalid (own skill, made generic) | MIT |
 | positioning-audit | https://github.com/Ootto-AI/claude-content-skills | MIT |
-| pre-launch-check | Khalid (own skill, made generic) | Khalid's own |
+| pre-launch-check | Khalid (own skill, made generic) | MIT |
 | pricing-strategy | https://github.com/alirezarezvani/claude-skills | MIT |
 | product-discovery | https://github.com/alirezarezvani/claude-skills | MIT |
 | profile-conversion-audit | https://github.com/Ootto-AI/claude-content-skills | MIT |
 | react-best-practices | https://github.com/shuding/better-all | MIT |
 | reel-analyzer | https://github.com/Ootto-AI/claude-content-skills | MIT |
 | reel-builder | https://github.com/Ootto-AI/claude-content-skills | MIT |
-| reel-extract | Khalid (own skill, made generic) | Khalid's own |
+| reel-extract | Khalid (own skill, made generic) | MIT |
 | reel-scripter | https://github.com/Ootto-AI/claude-content-skills | MIT |
 | remove-animations | https://github.com/emilkowalski/skills | MIT |
-| review | Khalid (own skill, made generic) | Khalid's own |
+| review | Khalid (own skill, made generic) | MIT |
 | review-animations | https://github.com/emilkowalski/skills | MIT |
 | rigging | https://github.com/majiayu000/claude-skill-registry | MIT |
 | saas-metrics-coach | https://github.com/alirezarezvani/claude-skills | MIT |
