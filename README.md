@@ -1,6 +1,6 @@
 # Claude kit
 
-Khalid's Claude Code setup, with everything personal taken out: 159 skills, 70 agents, the 3D printing skills (tools in [claude-3d-printing](https://github.com/kalmehdar/claude-3d-printing)), the plugins and MCP servers he uses, a writing-style rules file, a skill-gate hook, and a template for your own `CLAUDE.md`.
+Khalid's Claude Code setup, with everything personal taken out: 135 skills, 14 agents, the 3D printing skills (tools in [claude-3d-printing](https://github.com/kalmehdar/claude-3d-printing)), the plugins and MCP servers he uses, a writing-style rules file, a skill-gate hook, and a template for your own `CLAUDE.md`.
 
 ## Install
 
@@ -32,8 +32,8 @@ To update later: `git pull` in `claude-kit`, then copy again.
 
 | Folder | What it is |
 | --- | --- |
-| `skills/` | One folder per skill. `SOURCES.md` says where each came from. |
-| `agents/` | Subagent definitions by team (engineering, design, marketing, product, testing, 3D and more). `agents/extra/` holds nine more. |
+| `skills/` | One folder per skill, each with its licence file. `SOURCES.md` says where each came from and what was removed. |
+| `agents/` | Subagent definitions: 3D work (`agents/3d/`) and startup roles such as CTO, product manager and finance lead (`agents/personas/`). |
 | `3d-printing/` | A pointer: the 3D printing tools and examples live in [claude-3d-printing](https://github.com/kalmehdar/claude-3d-printing). |
 | `rules/writing-style.md` | Rules that stop Claude's writing sounding like AI. Copy to `~/.claude/rules/` or paste into your `CLAUDE.md`. |
 | `hooks/` | The skill gate: makes Claude load the right skill before certain jobs. See below. |
@@ -45,10 +45,9 @@ Some skills are worth starting with:
 | --- | --- |
 | `humanizer` | Rewrites text so it doesn't read like AI wrote it |
 | `brainstorming` | Talks through a feature before any code is written |
-| `owasp-security`, `never-get-hacked`, `security-audit` | Security while writing code, a quick pre-deploy sweep, and a deep review |
+| `never-get-hacked`, `security-audit` | A quick pre-deploy security sweep, and a deep review |
 | `frontend-design`, `hallmark`, `taste-skill` | Web pages that look designed |
 | `webapp-testing` | Testing a local web app with Playwright |
-| `deep-research` | Researching a question across many sources |
 | `council-this` | Five agents argue a big decision, then one report with a recommendation |
 | `pdf-ops` | Merge, split, redact, compress, fill and build PDFs without a PDF editor |
 | `review` | Checks work against the project's own rules and says honestly what was tested |
